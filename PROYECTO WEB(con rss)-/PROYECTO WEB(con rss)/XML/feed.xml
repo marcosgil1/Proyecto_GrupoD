@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Fitness Gym Noticias</title>
+        <link>http://localhost</link>
+        <description>Novedades del gimnasio</description>
+
+        <item>
+            <title>Nuevo horario de verano</title>
+            <description>A partir del 1 de junio ampliamos horario hasta las 00:00.</description>
+            <pubDate>Tue, 20 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Campeonato interno de Crossfit</title>
+            <description>Inscripciones abiertas hasta el 15 de mayo.</description>
+            <pubDate>Sun, 18 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Nuevo profesor de BJJ</title>
+            <description>Bienvenido a Bruno Herraez, experto en Artes Marciales.</description>
+            <pubDate>Fri, 10 Apr 2026 12:00:00 GMT</pubDate>
+        </item>
+
+    </channel>
+</rss>

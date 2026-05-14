@@ -1,0 +1,187 @@
+.hero {
+    position: relative;
+    color: white;
+    padding: 4rem 3rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    overflow: hidden;
+
+    background-image: url('../IMAGEN/hero-gimnasio.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero * {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #f39c12;
+    color: #1e2a3a;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #e67e22;
+}
+
+h2, h3 {
+    margin-bottom: 1rem;
+    color: #1e2a3a;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.cards {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 200px;
+}
+
+.destacados h4 {
+    font-size: 1.4rem;
+}
+
+#informacion,
+#novedades {
+    padding-top: 50px;
+}
+
+#novedad article {
+    border-left: 5px solid #f39c12;
+}
+
+.informacion {
+    margin-top: 2rem;
+}
+
+.info-bloque {
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.info-bloque-invertido {
+    margin-top: 2rem;
+}
+
+.info-imagen {
+    flex: 1;
+}
+
+.info-imagen img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.info-texto {
+    flex: 1;
+}
+
+.info-texto h4,
+.info-horarios h4 {
+    color: #1e2a3a;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.info-horarios {
+    text-align: center;
+    padding: 2rem;
+}
+
+.tabla-horarios {
+    width: 100%;
+    max-width: 700px;
+    margin: 1.5rem auto 0;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    color: #333;
+}
+
+.tabla-horarios th {
+    background: #f39c12;
+    color: #1e2a3a;
+    padding: 1rem;
+}
+
+.tabla-horarios td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.tabla-horarios tr:last-child td {
+    border-bottom: none;
+}
+
+.lista-instalaciones {
+    margin-top: 1rem;
+    padding-left: 1.2rem;
+}
+
+.lista-instalaciones li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+
+    .info-bloque,
+    .info-bloque-invertido {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .info-bloque-invertido .info-imagen {
+        order: -1;
+    }
+
+    .info-imagen img {
+        height: 220px;
+    }
+
+    .tabla-horarios th,
+    .tabla-horarios td {
+        padding: 0.8rem;
+    }
+}
