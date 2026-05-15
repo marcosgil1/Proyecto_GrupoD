@@ -1,0 +1,67 @@
+{
+  "actividades": [
+    {
+      "sala": "Sala Yoga",
+      "actividad": "Yoga Relajante",
+      "entrenador": "Bruno Herraez",
+      "fecha": "2026-05-02",
+      "hora": "09:00",
+      "capacidad": 20,
+      "plazas": 5
+    },
+    {
+      "sala": "Sala Spinning",
+      "actividad": "Spinning Intenso",
+      "entrenador": "Carlos Ruiz",
+      "fecha": "2026-05-10",
+      "hora": "10:30",
+      "capacidad": 15,
+      "plazas": 3
+    },
+    {
+      "sala": "Sala Crossfit",
+      "actividad": "WOD Mañana",
+      "entrenador": "Marcos Díaz, Ana Torres",
+      "fecha": "2026-05-10",
+      "hora": "08:00",
+      "capacidad": 12,
+      "plazas": 0
+    },
+    {
+      "sala": "Sala Yoga",
+      "actividad": "Vinyasa Flow",
+      "entrenador": "Marcos Gil",
+      "fecha": "2026-05-11",
+      "hora": "18:00",
+      "capacidad": 20,
+      "plazas": 10
+    },
+    {
+      "sala": "Sala Yoga",
+      "actividad": "Vinyasa Flow",
+      "entrenador": "Marcos Gil",
+      "fecha": "2026-05-11",
+      "hora": "18:00",
+      "capacidad": 20,
+      "plazas": 10
+    },
+    {
+      "sala": "Sala Yoga",
+      "actividad": "Vinyasa Flow",
+      "entrenador": "Marcos Gil",
+      "fecha": "2026-05-11",
+      "hora": "18:00",
+      "capacidad": 20,
+      "plazas": 10
+    },
+    {
+      "sala": "Sala Yoga",
+      "actividad": "Vinyasa Flow",
+      "entrenador": "Marcos Gil",
+      "fecha": "2026-05-11",
+      "hora": "18:00",
+      "capacidad": 20,
+      "plazas": 10
+    }
+  ]
+}

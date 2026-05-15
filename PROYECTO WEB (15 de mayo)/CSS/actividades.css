@@ -1,0 +1,115 @@
+/* Título principal */
+main h2 {
+    color: #1e2a3a;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #f39c12;
+    padding-left: 1rem;
+}
+
+/* Filtros */
+.filtros {
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filtros label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.filtros select,
+.filtros input {
+    margin-top: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    min-width: 160px;
+}
+
+.btn-filtrar {
+    background: #f39c12;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #1e2a3a;
+}
+
+.btn-filtrar:hover {
+    background: #e67e22;
+    color: white;
+}
+
+/* Contenedor de tarjetas */
+.tarjetas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Tarjeta individual */
+.tarjeta {
+    background: white;
+    border-radius: 12px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 5px solid #f39c12;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.tarjeta h3 {
+    color: #1e2a3a;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.tarjeta p {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.tarjeta p strong {
+    color: #1e2a3a;
+}
+
+/* Responsive para actividades */
+@media (max-width: 600px) {
+    .filtros {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filtros label {
+        width: 100%;
+    }
+
+    .filtros select,
+    .filtros input,
+    .btn-filtrar {
+        width: 100%;
+    }
+
+    .tarjetas-container {
+        grid-template-columns: 1fr;
+    }
+}
